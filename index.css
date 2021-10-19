@@ -1,0 +1,57 @@
+.container{
+    margin: auto;
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+}
+button{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    padding-right: 20px;
+}
+.calculater{
+    margin:auto;
+    text-align: center;
+    display:inline-block;
+}
+input{
+    padding: 20px;
+}
+@keyframes anurag{
+    0%{
+        color: green;
+    }
+    25%{
+        color: white;
+    }
+    50%{
+        color: red;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: blue;
+    }
+}
+@media (max-width:700px) {
+    .container{
+        width: 100%;
+        background-color: gray;
+    }
+    input{
+        border: 2px solid black;
+        border-radius: 10px;
+       
+    }
+    button{
+        border-radius: 8px;
+    }
+    h1{
+       animation: anurag 1s infinite;
+    }
+   
+
+   
+}
